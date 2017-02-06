@@ -1,25 +1,25 @@
-/* -------------------------------------
- * Utilities classes
- * These are examples of utilities classes
- * Feel free to change them and create your own
- * ------------------------------------- */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/feature.css");
 
-// Paddings
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding: 100px 0;
 }
-
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
-}
-.bg-email {
-  background: #aeaeae;
-}
-.bg-twitter {
-  background: #00a3e1;
-}
-.bg-facebook {
-  background: #3b5998;
+.wrapper-grey {
+  background: #F4F4F4;
 }
