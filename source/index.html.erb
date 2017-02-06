@@ -20,22 +20,22 @@
         <div class="col-xs-12 col-sm-6 col-md-3">
           <%= image_tag "globe.png" %>
           <h2>Discover the world</h2>
-          <p>The earth is your new home.</p>
+          <%= link_to 'The earth is your new home', '/team.html' %>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <%= image_tag "dollar.png" %>
           <h2>Pay online</h2>
-          <p>No cash issues anymore.</p>
+          <%= link_to 'No cash issues anymore', '/team.html' %>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <%= image_tag "beer.png" %>
           <h2>Meet people</h2>
-          <%= link_to 'Meet our team', '/team.html', :relative => true %>
+          <%= link_to 'Meet our team', '/team.html' %>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <%= image_tag "heart.png" %>
           <h2>Share and love</h2>
-          <p>Join a community you will love.</p>
+          <%= link_to 'Join a community you will love', '/team.html' %>
         </div>
       </div>
     </div>
@@ -51,6 +51,7 @@
                 <p>Charming room with patio</p>
               </div>
               <img class="card-user avatar avatar-large" src="images/seb.jpg">
+
               <a class="card-link" href="#" ></a>
             </div>
           </div>
